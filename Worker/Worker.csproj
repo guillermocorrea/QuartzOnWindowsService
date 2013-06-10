@@ -45,9 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HelloWorldJob.cs" />
     <Compile Include="IScheduledJob.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScheduledJob.cs" />
+    <Compile Include="WorkerConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

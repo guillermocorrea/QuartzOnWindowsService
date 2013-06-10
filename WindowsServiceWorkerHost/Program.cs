@@ -17,7 +17,7 @@ namespace WindowsServiceWorkerHost
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[] 
             { 
-                new Service1() 
+                new QuartzService() 
             };
             ServiceBase.Run(ServicesToRun);
         }
