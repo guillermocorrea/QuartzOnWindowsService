@@ -1,1 +1,7 @@
 A sample solution demostrating Quartz job scheduling hosted on a Windows Service.
+To install service: 
+Build Solution.
+Open Visual Studio cmd, enter cd WindowsServiceWorkerHost\bin\Debug.
+Enter installutil.exe WindowsServiceWorkerHost.exe
+Hit services.msc and Start QuartzService.
+Look for c:\QuartzOnServiceLog file, every minute is updated.
